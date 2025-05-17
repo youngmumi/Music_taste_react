@@ -1,0 +1,16 @@
+[
+  {
+    "genre": "팝",
+    "mood": "밝고 신나는",
+    "song": "As It Was",
+    "artist": "Harry Styles",
+    "link": "https://www.youtube.com/watch?v=H5v3kku4y6Q"
+  },
+  {
+    "genre": "인디",
+    "mood": "차분한",
+    "song": "Ivy",
+    "artist": "Frank Ocean",
+    "link": "https://www.youtube.com/watch?v=bRQnFY5rrb4"
+  }
+]
