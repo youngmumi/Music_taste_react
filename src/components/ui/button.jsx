@@ -3,8 +3,8 @@ import React from "react";
 const Button = ({ children, onClick, className = "", variant = "default", disabled = false }) => {
   const base = "px-4 py-2 rounded text-white font-semibold transition";
   const variants = {
-    default: "bg-blue-500 hover:bg-blue-600",
-    outline: "bg-white text-blue-500 border border-blue-500 hover:bg-blue-50"
+    default: "bg-indigo-500 hover:bg-indigo-600",
+    outline: "bg-white text-indigo-500 border border-indigo-500 hover:bg-indigo-50"
   };
 
   return (
