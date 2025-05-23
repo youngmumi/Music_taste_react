@@ -10,25 +10,19 @@ const Home = () => {
   };
 
   return (
-    <div className="container flex flex-col items-center justify-center min-h-screen text-center">
-      <h1 style={{ fontSize: "3rem", fontWeight: "bold", marginBottom: "1rem" }}>
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-100 to-purple-100 text-center px-4">
+      <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-gray-800">
         🎵 음악 취향 테스트
       </h1>
-      <p style={{ fontSize: "1.25rem", marginBottom: "2rem", color: "#555" }}>
+      <p className="text-lg sm:text-xl mb-6 text-gray-600 max-w-md">
         간단한 질문에 답하고 당신만의 음악 스타일을 알아보세요!
       </p>
       <img
         src="https://cdn-icons-png.flaticon.com/512/4472/4472584.png"
         alt="음악 일러스트"
-        style={{
-          width: "10%",
-          maxWidth: "400px",
-          borderRadius: "12px",
-          boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-          marginBottom: "2rem"
-        }}
+        className="w-32 sm:w-48 md:w-56 mb-6 rounded-xl shadow-lg"
       />
-      <Button onClick={handleStart} variant="default">
+      <Button onClick={handleStart} variant="default" className="text-lg px-6 py-3">
         테스트 시작하기
       </Button>
     </div>

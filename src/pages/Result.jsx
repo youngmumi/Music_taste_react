@@ -3,26 +3,33 @@ import { Button } from "../components/ui/button";
 
 const Result = ({ result }) => {
   return (
-    <div className="max-w-xl mx-auto p-4">
-      <div className="p-4 border rounded-xl shadow bg-white">
-        <h2 className="text-xl font-bold mb-2">당신의 음악 추천은:</h2>
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-100 to-indigo-100 px-4">
+      <div className="w-full max-w-md bg-white shadow-xl rounded-2xl p-6 text-center">
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">🎧 당신의 음악 추천은?</h2>
+
         {result ? (
-          <div>
-            <p className="mb-1">🎵 {result.song} - {result.artist}</p>
+          <div className="mb-6">
+            <p className="text-lg text-gray-700 font-medium mb-2">
+              🎵 <span className="font-semibold">{result.song}</span> - {result.artist}
+            </p>
             <a
               href={result.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 underline"
+              className="inline-block mt-2 text-blue-600 font-medium underline hover:text-blue-800 transition"
             >
-              YouTube로 이동
+              🔗 YouTube로 듣기
             </a>
           </div>
         ) : (
-          <p>추천 결과를 찾을 수 없습니다.</p>
+          <p className="text-gray-500">추천 결과를 찾을 수 없습니다.</p>
         )}
-        <Button className="mt-4" onClick={() => window.location.href = "/"}>
-          다시 시작
+
+        <Button
+          className="mt-4 px-6 py-2 text-base"
+          onClick={() => window.location.href = "/"}
+        >
+          🔄 다시 시작
         </Button>
       </div>
     </div>
