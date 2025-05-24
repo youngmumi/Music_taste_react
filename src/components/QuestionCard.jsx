@@ -1,11 +1,12 @@
 import React from "react";
 import { Button } from "../components/ui/button";
+import "../styles/QuestionCard.css";
 
 const QuestionCard = ({ question, options, selected, onSelect }) => {
   return (
-    <div className="p-4 border rounded-xl shadow bg-white">
-      <p className="font-bold mb-2">{question}</p>
-      <div className="grid grid-cols-2 gap-2">
+    <div className="question-card">
+      <p className="question-text">{question}</p>
+      <div className="option-grid">
         {options.map((opt) => (
           <Button
             key={opt}

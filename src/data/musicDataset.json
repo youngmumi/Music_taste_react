@@ -1,37 +1,197 @@
 [
   {
-    "genre": "팝",
+    "_comment": "------------POP------------"
+  },
+  {
+    "genre": "POP",
     "mood": "밝고 신나는",
-    "song": "As It Was",
-    "artist": "Harry Styles",
-    "link": "https://www.youtube.com/watch?v=H5v3kku4y6Q"
+    "song": "Rain on me",
+    "artist": "Lady gaga",
+    "link": "https://www.youtube.com/watch?v=AoAm4om0wTs"
   },
   {
-    "genre": "인디",
+    "genre": "POP",
     "mood": "차분한",
-    "song": "Ivy",
-    "artist": "Frank Ocean",
+    "song": "12:45 (Stripped)",
+    "artist": "Etham",
+    "link": "https://www.youtube.com/watch?v=fSzLmXV9pIo&list=RDQM9xk-XKpkZio&start_radio=1"
+  },
+  {
+    "genre": "POP",
+    "mood": "어두운",
+    "song": "Everyday Normal Guy 2",
+    "artist": "Jon Lajoie",
+    "link": "https://www.youtube.com/watch?v=Xx9V0fTDJY0&list=PLZakaXMEPF7JowABxXo7pgcCfCcK5N1hJ"
+  },
+  {
+    "genre": "POP",
+    "mood": "몽환적인",
+    "song": "Nomad",
+    "artist": "Zion. T, Gen Hoshino",
+    "link": "https://www.youtube.com/watch?v=UmoE3ITQJbM"
+  },
+  {
+    "genre": "POP",
+    "mood": "감성적인",
+    "song": "Circles",
+    "artist": "Post Malone",
+    "link": "https://www.youtube.com/watch?v=wXhTHyIgQ_U"
+  },
+
+  {
+    "_comment": "------------K-POP------------"
+  },
+  {
+    "genre": "K-POP",
+    "mood": "밝고 신나는",
+    "song": "Perfect Night",
+    "artist": "Le sserafim",
+    "link": "https://www.youtube.com/watch?v=hLvWy2b857I"
+  },
+  {
+    "genre": "K-POP",
+    "mood": "차분한",
+    "song": "Fine",
+    "artist": "이준호",
+    "link": "https://www.youtube.com/watch?v=kpryzZPDaMY"
+  },
+  {
+    "genre": "K-POP",
+    "mood": "어두운",
+    "song": "Monster",
+    "artist": "레드벨벳-아이린&슬기",
+    "link": "https://www.youtube.com/watch?v=Ujb-gvqsoi0"
+  },
+  {
+    "genre": "K-POP",
+    "mood": "몽환적인",
+    "song": "Cool with you",
+    "artist": "NJZ",
+    "link": "https://www.youtube.com/watch?v=kKsivrgoyDw"
+  },
+  {
+    "genre": "K-POP",
+    "mood": "감성적인",
+    "song": "Flowers",
+    "artist": "aespa",
+    "link": "https://www.youtube.com/watch?v=EO7s8AzviQI"
+  },
+
+  {
+    "_comment": "------------J-POP------------"
+  },
+  {
+    "genre": "J-POP",
+    "mood": "밝고 신나는",
+    "song": "Koi",
+    "artist": "Gen Hoshino",
+    "link": "https://www.youtube.com/watch?v=jhOVibLEDhA"
+  },
+  {
+    "genre": "J-POP",
+    "mood": "차분한",
+    "song": "ベテルギウス",
+    "artist": "優里",
+    "link": "https://www.youtube.com/watch?v=cbqvxDTLMps"
+  },
+  {
+    "genre": "J-POP",
+    "mood": "어두운",
+    "song": "僕が死のうと思ったのは",
+    "artist": "amazarashi",
+    "link": "https://www.youtube.com/watch?v=xIFoDnxxAyc"
+  },
+  {
+    "genre": "J-POP",
+    "mood": "몽환적인",
+    "song": "踊り子",
+    "artist": "Vaundy",
+    "link": "https://www.youtube.com/watch?v=7HgJIAUtICU"
+  },
+  {
+    "genre": "J-POP",
+    "mood": "감성적인",
+    "song": "Pop Virus",
+    "artist": "Gen Hoshino",
+    "link": "https://www.youtube.com/watch?v=HG0M_eZduxY"
+  },
+
+
+  {
+    "_comment": "------------록------------"
+  },
+  {
+    "genre": "록",
+    "mood": "밝고 신나는",
+    "song": "Sweet Child O' Mine",
+    "artist": "Guns N' Roses",
+    "link": "https://www.youtube.com/watch?v=1w7OgIMMRc4&list=PLJX4cz_Ux7jmkFQDHGYHOaM7xhPVMPW4o"
+  },
+  {
+    "genre": "록",
+    "mood": "차분한",
+    "song": "Trouble",
+    "artist": "Cage The Elephant",
+    "link": "https://www.youtube.com/watch?v=lA-gGl6qihQ"
+  },
+  {
+    "genre": "록",
+    "mood": "어두운",
+    "song": "Duality",
+    "artist": "Slipknot",
     "link": "https://www.youtube.com/watch?v=bRQnFY5rrb4"
   },
   {
-    "genre": "인디",
-    "mood": "차분한",
-    "song": "Ivy",
-    "artist": "Frank Ocean",
-    "link": "https://www.youtube.com/watch?v=bRQnFY5rrb4"
+    "genre": "록",
+    "mood": "몽환적인",
+    "song": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "link": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ&list=PLJX4cz_Ux7jmkFQDHGYHOaM7xhPVMPW4o&index=11"
   },
   {
-    "genre": "인디",
-    "mood": "차분한",
-    "song": "Ivy",
-    "artist": "Frank Ocean",
-    "link": "https://www.youtube.com/watch?v=bRQnFY5rrb4"
+    "genre": "록",
+    "mood": "감성적인",
+    "song": "Don’t Look Back In Anger",
+    "artist": "Oasis",
+    "link": "https://www.youtube.com/watch?v=cmpRLQZkTb8"
+  },
+
+  {
+    "_comment": "------------클래식------------"
   },
   {
-    "genre": "인디",
+    "genre": "클래식",
+    "mood": "밝고 신나는",
+    "song": "String Symphony No. 6",
+    "artist": "Jörg Faerber",
+    "link": "https://www.youtube.com/watch?v=s5TifIzzGVY&list=PLerBDyU95rX0VbhOFQmyusPi8wswPBZtM&index=1"
+  },
+  {
+    "genre": "클래식",
     "mood": "차분한",
-    "song": "Ivy",
-    "artist": "Frank Ocean",
-    "link": "https://www.youtube.com/watch?v=bRQnFY5rrb4"
+    "song": "Orchestral Suite No. 3 in D Major",
+    "artist": "J.S. Bach",
+    "link": "https://www.youtube.com/watch?v=XO6Zcrnopgw&list=RDCLAK5uy_mXoN6fIdNjR49OhhEHBN3Dllo1payyEzo&start_radio=1"
+  },
+  {
+    "genre": "클래식",
+    "mood": "어두운",
+    "song": "Erlkönig",
+    "artist": "Franz Schubert",
+    "link": "https://www.youtube.com/watch?v=JS91p-vmSf0"
+  },
+  {
+    "genre": "클래식",
+    "mood": "몽환적인",
+    "song": "Clair de lune",
+    "artist": "Debussy",
+    "link": "https://www.youtube.com/watch?v=97_VJve7UVc&list=RDQMxYnvSDkGgMg&index=8"
+  },
+  {
+    "genre": "클래식",
+    "mood": "감성적인",
+    "song": "Nocturne Op.9, No.2",
+    "artist": "Fryderyk Franciszek Chopin",
+    "link": "https://www.youtube.com/watch?v=sBydUC6GhNI&list=RDQMxYnvSDkGgMg&index=9"
   }
 ]

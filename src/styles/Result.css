@@ -1,0 +1,63 @@
+.result-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #ffe4e6, #e0e7ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.result-box {
+  width: 100%;
+  max-width: 28rem;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.result-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.result-content {
+  margin-bottom: 1.5rem;
+}
+
+.result-song {
+  font-size: 1.125rem;
+  color: #374151;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.song-name {
+  font-weight: 600;
+}
+
+.youtube-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #2563eb;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.youtube-link:hover {
+  color: #1e3a8a;
+}
+
+.no-result {
+  color: #9ca3af;
+}
+
+.restart-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+}

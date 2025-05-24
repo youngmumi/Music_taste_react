@@ -1,0 +1,31 @@
+.survey-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #eef2ff, #fce7f3);
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.survey-box {
+  width: 100%;
+  max-width: 640px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.survey-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.survey-submit {
+  width: 100%;
+  margin-top: 2rem;
+  font-size: 1.125rem;
+  padding: 0.75rem 0;
+}
