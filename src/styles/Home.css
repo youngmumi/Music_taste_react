@@ -1,32 +1,35 @@
 .home-container {
   min-height: 100vh;
-  background: linear-gradient(to bottom right, #dbeafe, #e9d5ff);
+  background: linear-gradient(135deg, #dbeafe, #f3e8ff);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .home-title {
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: #1e3a8a; /* 깊은 네이비 */
   margin-bottom: 1rem;
-  color: #1f2937;
+  line-height: 1.2;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
 }
 
 @media (min-width: 640px) {
   .home-title {
-    font-size: 3rem;
+    font-size: 3.25rem;
   }
 }
 
 .home-description {
-  font-size: 1.125rem;
-  margin-bottom: 1.5rem;
-  color: #4b5563;
-  max-width: 28rem;
+  font-size: 1.15rem;
+  color: #475569;
+  max-width: 30rem;
+  margin-bottom: 1.75rem;
+  line-height: 1.6;
 }
 
 @media (min-width: 640px) {
@@ -36,10 +39,10 @@
 }
 
 .home-image {
-  width: 8rem;
-  border-radius: 0.75rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 9rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
 @media (min-width: 640px) {
@@ -56,5 +59,23 @@
 
 .start-button {
   font-size: 1.125rem;
-  padding: 0.75rem 1.5rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  background: linear-gradient(to right, #6366f1, #a855f7);
+  color: white;
+  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
+  transition: all 0.25s ease;
 }
+
+.start-button:hover {
+  background: linear-gradient(to right, #4f46e5, #9333ea);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(147, 51, 234, 0.5);
+}
+
+.start-button:active {
+  transform: scale(0.97);
+}
+
+

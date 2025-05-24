@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "../components/ui/button";
 import "../styles/Home.css";
+import img1 from '../img/tape_10404181.png'
 
 const Home = () => {
   const navigate = useNavigate();
@@ -14,10 +15,10 @@ const Home = () => {
     <div className="home-container">
       <h1 className="home-title">🎵 음악 취향 테스트</h1>
       <p className="home-description">
-        간단한 질문에 답하고 당신만의 음악 스타일을 알아보세요!
+        당신의 음악 취향을 알고 노래를 추천 받으세요!
       </p>
       <img
-        src="https://cdn-icons-png.flaticon.com/512/4472/4472584.png"
+        src={img1}
         alt="음악 일러스트"
         className="home-image"
       />
