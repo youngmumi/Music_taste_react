@@ -59,6 +59,7 @@
   font-weight: 600;
   text-decoration: underline;
   transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .youtube-link:hover {
@@ -66,6 +67,11 @@
 }
 
 .no-result {
+  color: #9ca3af;
+  font-style: italic;
+}
+
+.no-link {
   color: #9ca3af;
   font-style: italic;
 }
@@ -89,4 +95,9 @@
 
 .restart-button:active {
   background-color: #1d4ed8;
+}
+
+.restart-button:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 3px;
 }

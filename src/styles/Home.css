@@ -12,10 +12,10 @@
 .home-title {
   font-size: 2.75rem;
   font-weight: 800;
-  color: #1e3a8a; /* 깊은 네이비 */
+  color: #1e3a8a;
   margin-bottom: 1rem;
   line-height: 1.2;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 @media (min-width: 640px) {
@@ -65,7 +65,8 @@
   background: linear-gradient(to right, #6366f1, #a855f7);
   color: white;
   box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
-  transition: all 0.25s ease;
+  transition: background-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
 }
 
 .start-button:hover {
@@ -78,4 +79,7 @@
   transform: scale(0.97);
 }
 
-
+.start-button:focus-visible {
+  outline: 3px solid #9333ea;
+  outline-offset: 3px;
+}

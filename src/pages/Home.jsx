@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "../components/ui/button";
 import "../styles/Home.css";
-import img1 from '../img/tape_10404181.png'
+import img1 from '../img/main.png';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -19,7 +19,7 @@ const Home = () => {
       </p>
       <img
         src={img1}
-        alt="음악 일러스트"
+        alt="음악 관련 일러스트 이미지"
         className="home-image"
       />
       <Button onClick={handleStart} variant="default" className="start-button">

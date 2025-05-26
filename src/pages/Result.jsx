@@ -14,7 +14,11 @@ const Result = ({ result }) => {
         {result ? (
           <div className="result-content">
             <p className="result-song">
-              🎵 <span className="song-name">{result.song}</span> - {result.artist}
+              🎵{" "}
+              <span className="song-name" aria-label={`곡 제목: ${result.song}`}>
+                {result.song}
+              </span>{" "}
+              - {result.artist}
             </p>
             <p className="genre-info">🎼 장르: {result.genre}</p>
             <p className="mood-info">🌈 분위기: {result.mood}</p>
@@ -25,6 +29,7 @@ const Result = ({ result }) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="youtube-link"
+                aria-label={`${result.song} 유튜브 링크 열기`}
               >
                 🔗 YouTube로 듣기
               </a>
@@ -36,10 +41,7 @@ const Result = ({ result }) => {
           <p className="no-result">추천 결과를 찾을 수 없습니다.</p>
         )}
 
-        <Button
-          className="restart-button"
-          onClick={() => navigate("/")}
-        >
+        <Button className="restart-button" onClick={() => navigate("/")}>
           🔄 다시 시작
         </Button>
       </div>

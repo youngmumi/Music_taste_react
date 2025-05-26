@@ -9,9 +9,10 @@ const QuestionCard = ({ question, options, selected, onSelect }) => {
       <div className="option-grid">
         {options.map((opt) => (
           <Button
-            key={opt}
+            key={`${question}-${opt}`}
             variant={selected === opt ? "default" : "outline"}
             onClick={() => onSelect(opt)}
+            aria-pressed={selected === opt}
           >
             {opt}
           </Button>
@@ -22,3 +23,4 @@ const QuestionCard = ({ question, options, selected, onSelect }) => {
 };
 
 export default QuestionCard;
+
