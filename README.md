@@ -31,8 +31,8 @@
     <img src = "./readme/Survey.png" width="75%">
 </p>
 
-> 세가지 질문을 주고 이에 대해 버튼으로 선택지를 누르도록 함
-> 결과보기 버튼을 누르면 Result page로 이동동
+> 세가지 질문을 주고 이에 대해 버튼으로 선택지를 누르도록 함 <br>
+> 결과보기 버튼을 누르면 Result page로 이동
 
 <br>
 
@@ -41,6 +41,6 @@
     <img src = "./readme/Result.png" width="75%">
 </p>
 
-> Survey page에서 선택했던 결과를 바탕으로 음악 추천과 함께 유튜브 링크 제공
+> Survey page에서 선택했던 결과를 바탕으로 음악 추천과 함께 유튜브 링크 제공 <br>
 > 다시 시작 버튼을 누르면 Main page로 이동
 
