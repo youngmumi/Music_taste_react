@@ -11,7 +11,7 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width= "7%"/>
 </p>
 
-> React & CSS
+> React & CSS : 프론트엔드 & 백엔드드
 
 ---
 
